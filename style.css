@@ -1,11 +1,61 @@
+
+/* custom font add */
+
+@font-face {
+    font-family: 'title-font';
+    src: url('fonts/ArchivoBlack-Regular.ttf');
+  }
+
+
+
+
+/* custom font add 2 */
+
+
+@font-face {
+    font-family: 'text-font';
+    src: url('fonts/Sansation-Regular.ttf');
+  }
+
+
+
+
+/* end */
+
+
 body {
-    margin: 0;
-    font-family: Monospace;
+    margin: 20px;
+    font-family:monospace;  
 }
+
+
+/* font awesome */
+
+i {
+    color: #333;
+    font-size: 24px;
+    margin-right: 8px;
+  }
+  .fa-camera {
+    color: red;
+    font-size: 32px;
+  }
+  .fa-github {
+    color: rgb(8, 0, 255);
+    font-size: 32px;
+  }
+  .fa-user {
+    color: rgb(12, 127, 56);
+    font-size: 32px;
+  }
+    
+  /* font awesome end */
 
 h3{
   
+    font-family:cursive;
     font-size: larger;
+    text-transform: capitalize;
     
 }
 
@@ -19,12 +69,83 @@ button{
     border-radius: 5px;
 }
 
+/* box styling start */
+
 .div{
 
     box-sizing: border-box;
-    border-radius: 5px;
+    border-radius: 2px;
     padding: 10px;
     margin: 10px;
     border: 5px solid blue;
+    box-shadow: inset;
+}
+
+.box-one{
+
+    box-sizing: border-box;
+    border-radius: 2px;
+    border: 2px solid green;
+    border-style: dashed;
+    background: rgb(220, 255, 168);
+    margin: 10px;
+    padding: 20px;
+
+}
+
+.box-two{
+
+    box-sizing: border-box;
+    border-radius: 2px;
+    border: 2px solid rgb(3, 32, 218);
+    border-style: dotted;
+    background: rgb(211, 243, 255);
+    margin: 10px;
+    padding: 20px;
+
+}
+
+.box-three{
+
+    box-sizing: border-box;
+    border-radius: 2px;
+    border: 2px solid rgb(124, 0, 201);
+    border-style: double;
+    background: rgb(242, 236, 254);
+    margin: 10px;
+    padding: 20px;
+
+}
+
+.box-four{
+
+    box-sizing: border-box;
+    border-radius: 2px;
+    border: 2px solid rgb(0, 201, 121);
+    border-style: groove;
+    background: rgb(231, 255, 247);
+    margin: 10px;
+    padding: 20px;
+    
+
+}
+
+/* box styling end */
+
+.p-offset{
+
+    margin: 30px;
+    background: yellow;
+    border: 1px solid black;
+    outline: 1px solid red;
+    outline-offset: 15px;
+}
+
+.icon{
+
+    background:rgb(249, 255, 228);
+    border: 1px solid orange;
+    padding: 20px;
+    margin: 10px;
 }
 
